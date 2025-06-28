@@ -1,0 +1,21 @@
+# node
+node_modules
+dist
+coverage
+
+# parcel
+.parcel-cache/
+
+# editors
+.vscode
+*.swp
+*~
+
+# OS
+.DS_Store
+
+# distribution
+/drug-droves
+*.tar.gz
+*.tgz
+*.tar

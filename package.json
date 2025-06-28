@@ -1,0 +1,38 @@
+{
+  "name": "drug-droves",
+  "version": "0.1.0",
+  "description": "Defeat the shadows preventing drug targets from being investigated",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./drug-droves --public-url /drug-droves/",
+    "test": "karma start --single-run",
+    "check": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grochmal/drug-droves.git"
+  },
+  "keywords": [
+    "drug-discovery",
+    "game",
+    "board-style"
+  ],
+  "author": "Michal Grochmal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grochmal/drug-droves/issues"
+  },
+  "homepage": "https://github.com/grochmal/drug-droves#readme",
+  "devDependencies": {
+    "excalibur-jasmine": "^0.3.8",
+    "jest": "^30.0.2",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-jasmine": "^5.1.0",
+    "parcel": "^2.15.4",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "excalibur": "^0.30.3"
+  }
+}
